@@ -1,0 +1,13 @@
+name: KatanaPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  givekatana:
+    description: Gives a custom katana to the player.
+    usage: /givekatana <type>
+    permission: katana.give
+permissions:
+  katana.give:
+    description: Allows giving custom katanas
+    default: op
